@@ -7,12 +7,6 @@
 
 ---
 
-## The Workbench
-
-> **Status:** The workbench is ready. Original skills will appear here as they are completed and validated.
-
-This repository is Simon's personal, curated collection of original AI-agent skills. It is currently in its foundational stage. The tools, validation scripts, and templates are established, but the skill catalog itself is intentionally empty pending the arrival of new, carefully engineered workflows.
-
 ## What is a Skill?
 
 In this repository, a **skill** is defined as a reusable, documented agent workflow that provides significantly more value than a one-off prompt.
@@ -53,7 +47,9 @@ Each skill declares its supported targets in its `SKILL.md` frontmatter.
 
 ## Skill Catalog
 
-The catalog is currently empty. Once skills are published, they will be listed here, linked to their respective directories in `skills/`.
+| Skill Family | Description | Target | Status |
+|---|---|---|---|
+| [**Grok Build Cross-Model Workflow**](skills/grill-me-grok/) | A Claude Code skill family that uses Grok Build as an independent reviewer and optional implementation agent. | `claude-code`, `grok` | `experimental` |
 
 ## Installation and Usage
 
@@ -95,8 +91,10 @@ To ensure all skills meet the repository's metadata and structural requirements,
 python scripts/validate_repository.py
 ```
 
-## License and Attribution
+## License and Policy on Derived Work
 
 The original infrastructure, templates, and scripts in this repository are licensed under the MIT License (see `LICENSE`). Original skills added by Simon will generally adopt this license unless otherwise stated in their respective directories.
 
-If a skill is adapted from or inspired by third-party work, attribution must be explicitly preserved in the skill's documentation and close to the derived work. Compatible licensing must be verified prior to inclusion. No third-party skill material is included in this repository.
+`simons-skills` contains skills created, adapted, or substantially developed by Simon. Derived work is allowed when Simon has explicitly authorized its inclusion, the source license permits it, attribution is preserved, and Simon’s modifications are clearly distinguished from upstream work.
+
+If a skill is adapted from or inspired by third-party work, attribution must be explicitly preserved in the skill's documentation and close to the derived work. Compatible licensing must be verified prior to inclusion.

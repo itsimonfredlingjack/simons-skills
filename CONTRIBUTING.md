@@ -28,9 +28,18 @@ To add a new skill or modify an existing one, please follow this standard workfl
    ```
 9. **Open a pull request:** Submit your changes for review. Ensure your PR description summarizes the skill's purpose and the environments it was tested in.
 
-## Guidelines
+## Guidelines and Policy on Derived Work
 
-* **Do not import external skills:** We do not accept direct copies or thin adaptations of skills from other repositories.
+`simons-skills` contains skills created, adapted, or substantially developed by Simon. Derived work is allowed when Simon has explicitly authorized its inclusion, the source license permits it, attribution is preserved, and Simon’s modifications are clearly distinguished from upstream work.
+
+The repository strictly prohibits:
+* unauthorized copying;
+* removal of attribution;
+* incompatible-license imports;
+* presenting upstream work as wholly original;
+* importing external skills without an explicit task;
+* fictional compatibility or validation claims.
+
 * **No fake skills:** Do not add placeholder or fictional skills to "pad" the repository.
 * **Validation is not validation:** A skill should not be marked as `stable` solely because its Markdown passes the validation script. Stability implies the workflow has been proven effective in practice.
 * **Respect the license:** Ensure any original work you contribute can be licensed under the MIT License. If you must bring in derived work, ensure attribution is preserved and licenses are compatible.

@@ -1,14 +1,16 @@
 # Skill Catalog
 
-> **Status:** The workbench is ready. Original skills will appear here as they are completed and validated.
+This directory houses Simon's personal collection of curated agent workflows.
 
-This directory will house Simon's personal collection of curated agent workflows. Currently, the collection is empty as the repository foundation has just been established.
+## Catalog
 
-Once skills are added, they will be organized as individual directories here, following the repository conventions.
+| Skill Family | Description | Target | Status |
+|---|---|---|---|
+| [**Grok Build Cross-Model Workflow**](grill-me-grok/) | A Claude Code skill family that uses Grok Build as an independent reviewer and optional implementation agent. | `claude-code`, `grok` | `experimental` |
 
 ## Structure
 
-When populated, a typical skill directory will look like this:
+A typical skill directory looks like this:
 
 ```text
 skills/<skill-slug>/

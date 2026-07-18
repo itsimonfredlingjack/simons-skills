@@ -2,12 +2,24 @@
 
 This file contains rules and operational guidelines for AI agents (such as Jules, Claude Code, or other coding assistants) working within this repository.
 
-This repository, `simons-skills`, contains Simon's original AI-agent skills and the reusable authoring infrastructure required to build them.
+This repository, `simons-skills`, contains skills created, adapted, or substantially developed by Simon, as well as the reusable authoring infrastructure required to build them.
+
+## Policy on Derived Work
+
+`simons-skills` contains skills created, adapted, or substantially developed by Simon. Derived work is allowed when Simon has explicitly authorized its inclusion, the source license permits it, attribution is preserved, and Simon’s modifications are clearly distinguished from upstream work.
+
+The repository strictly prohibits:
+* unauthorized copying;
+* removal of attribution;
+* incompatible-license imports;
+* presenting upstream work as wholly original;
+* importing external skills without an explicit task;
+* fictional compatibility or validation claims.
 
 ## Core Rules
 
 * **Inspect before editing:** You must inspect the entire target skill (all relevant files in its directory) before modifying it.
-* **No external imports without authorization:** Do not import, recreate, fork, translate, rename, or adapt skills from external repositories without an explicit, direct task instructing you to do so.
+* **No external imports without authorization:** Do not import, recreate, fork, translate, rename, or adapt skills from external repositories without an explicit, direct task instructing you to do so (or explicit owner authorization).
 * **Preserve attribution:** Never remove attribution from derived or inspired work.
 * **No false claims:** Never claim cross-platform compatibility without evidence. Do not invent benchmark results, user adoption claims, or fake metrics.
 * **Verify before documenting:** Always verify current CLI syntax and external tool behaviors against current documentation before writing instructions for them.
