@@ -1,0 +1,29 @@
+name: Skill Proposal
+description: Propose a new agent workflow skill
+labels: ["enhancement", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a new skill for Simon's field kit!
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: What specific problem does this skill solve?
+    validations:
+      required: true
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Proposed Workflow
+      description: Briefly outline the stages the agent should take.
+    validations:
+      required: true
+  - type: input
+    id: targets
+    attributes:
+      label: Target Environments
+      description: E.g., Claude Code, Jules, specific MCP dependencies.
+    validations:
+      required: true

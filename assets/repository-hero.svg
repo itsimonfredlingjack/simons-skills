@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%" role="img" aria-label="Simon's Skills - A personal field kit of carefully engineered agent workflows">
+  <defs>
+    <!-- Background Gradient (Subtle) -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a" />
+      <stop offset="100%" stop-color="#141414" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#222222" stroke-width="1" />
+    </pattern>
+
+    <!-- Dot Pattern -->
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#333333" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bg-grad)" />
+  <rect width="100%" height="100%" fill="url(#grid)" />
+
+  <!-- Left Side: Abstract Geometric/Signal Visual -->
+  <g transform="translate(100, 80)">
+    <!-- Terminal window outline -->
+    <rect x="0" y="0" width="280" height="240" fill="none" stroke="#444444" stroke-width="2" rx="4" />
+    <line x1="0" y1="30" x2="280" y2="30" stroke="#444444" stroke-width="2" />
+
+    <!-- Terminal buttons -->
+    <circle cx="15" cy="15" r="4" fill="#555555" />
+    <circle cx="30" cy="15" r="4" fill="#555555" />
+    <circle cx="45" cy="15" r="4" fill="#555555" />
+
+    <!-- ▰ ▱ ▰ motif and signals -->
+    <g transform="translate(30, 70)">
+      <!-- Top signal line -->
+      <rect x="0" y="0" width="40" height="12" fill="#00ffcc" />
+      <rect x="50" y="0" width="12" height="12" fill="none" stroke="#00ffcc" stroke-width="2" />
+      <rect x="70" y="0" width="40" height="12" fill="#00ffcc" />
+      <line x1="120" y1="6" x2="200" y2="6" stroke="#00ffcc" stroke-width="2" stroke-dasharray="4 4" />
+
+      <!-- Middle routing block -->
+      <rect x="0" y="40" width="12" height="12" fill="#ff3366" />
+      <line x1="20" y1="46" x2="60" y2="46" stroke="#ff3366" stroke-width="2" />
+      <circle cx="70" cy="46" r="6" fill="none" stroke="#ff3366" stroke-width="2" />
+      <line x1="80" y1="46" x2="200" y2="46" stroke="#ff3366" stroke-width="2" stroke-dasharray="8 4" />
+
+      <!-- Bottom signal line -->
+      <rect x="0" y="80" width="40" height="12" fill="#aaaaaa" />
+      <rect x="50" y="80" width="12" height="12" fill="none" stroke="#aaaaaa" stroke-width="2" />
+      <rect x="70" y="80" width="40" height="12" fill="#aaaaaa" />
+
+      <!-- Connecting paths -->
+      <path d="M 120 86 L 140 86 L 150 46" fill="none" stroke="#aaaaaa" stroke-width="2" />
+    </g>
+
+    <!-- Lower UI elements -->
+    <rect x="30" y="190" width="60" height="6" fill="#333333" />
+    <rect x="100" y="190" width="120" height="6" fill="#333333" />
+  </g>
+
+  <!-- Right Side: Typography and Title -->
+  <g transform="translate(450, 160)">
+    <text x="0" y="0" font-family="monospace, sans-serif" font-size="64" font-weight="bold" fill="#ffffff" letter-spacing="1">SIMON'S SKILLS</text>
+    <text x="5" y="45" font-family="monospace, sans-serif" font-size="20" font-weight="normal" fill="#888888" letter-spacing="2">A PERSONAL FIELD KIT OF CAREFULLY ENGINEERED AGENT WORKFLOWS</text>
+
+    <!-- Subtle status indicator -->
+    <g transform="translate(5, 90)">
+      <circle cx="6" cy="-5" r="4" fill="#00ffcc" />
+      <text x="20" y="0" font-family="monospace, sans-serif" font-size="14" fill="#555555" letter-spacing="1">STATUS: WORKBENCH READY</text>
+    </g>
+  </g>
+
+</svg>
